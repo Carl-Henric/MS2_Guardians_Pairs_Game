@@ -1,0 +1,17 @@
+/* GENERAL */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Marvel', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/guardians_shadow_mercury.jpg") ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;   
+}
