@@ -105,6 +105,10 @@ body {
   .back-face {
     padding: 2px; /* was 10px */
   }
+
+  #won {
+    padding: 50px;
+  }
  
 }
 
@@ -122,6 +126,11 @@ body {
     padding: 2px; /*10px */
   }
 
+  #won {
+    padding: 50px;
+    top: 40%;
+  }
+
 }
 
 /* Small Devices */
@@ -134,6 +143,11 @@ body {
   .front-face,
   .back-face {
     padding: 2px; /* was 10px */
+  }
+
+  #won {
+    padding: 35px;
+    top: 30%;
   }
 
 }
@@ -151,6 +165,11 @@ body {
     padding: 2px; /* was 10px */
   }
 
+    #won {
+    padding: 30px;
+    top: 30%;
+  }
+
 }
 
 /* Extra Extra Small Devices */
@@ -165,6 +184,11 @@ body {
   .front-face,
   .back-face {
     padding: 2px; /* was 10px */
+  }
+
+  #won {
+    padding: 15px;
+    top: 30%;
   }
 
 }
