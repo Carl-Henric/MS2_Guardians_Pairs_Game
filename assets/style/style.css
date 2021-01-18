@@ -263,7 +263,7 @@ max-width: 100%; /*for img-fluid? */
 
   .modal-content {
     font-size: 18px; 
-}
+  }
 
 }
 
@@ -294,6 +294,22 @@ max-width: 100%; /*for img-fluid? */
   .modal-content {
     font-size: 16px; 
 }
+   #HelpBtn {
+      background-size: 20px;
+  }
+
+  .soundon,
+  .soundoff {
+      background-size: 20px;
+  }
+
+  .header {
+    font-size: small;
+}
+
+ .points-display {
+     font-size: small;
+ }
 
 }
 
@@ -326,6 +342,23 @@ max-width: 100%; /*for img-fluid? */
     font-size: 14px; 
 }
 
+    #HelpBtn {
+      background-size: 20px;
+  }
+
+  .soundon,
+  .soundoff {
+      background-size: 20px;
+  }
+
+  .header {
+    font-size: x-small;
+}
+
+    .points-display {
+        font-size: x-small;
+    }
+
 }
 
 /* Extra Extra Small Devices */
@@ -357,6 +390,23 @@ max-width: 100%; /*for img-fluid? */
   .modal-content {
     font-size: 12px; 
 }
+
+#HelpBtn {
+      background-size: 20px;
+  }
+
+  .soundon,
+  .soundoff {
+      background-size: 20px;
+  }
+
+  .header {
+    font-size: x-small;
+}
+
+  .points-display {
+        font-size: x-small;
+    }
 
 }
 
