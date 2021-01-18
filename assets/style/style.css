@@ -220,6 +220,10 @@ max-width: 100%; /*for img-fluid? */
     font-size: 30px;
   }
 
+  .modal-content {
+    font-size: 18px; 
+}
+
 }
 
 /* Small Devices */
@@ -245,6 +249,10 @@ max-width: 100%; /*for img-fluid? */
   #playAgain {
     font-size: 25px;
   }
+
+  .modal-content {
+    font-size: 16px; 
+}
 
 }
 
@@ -273,6 +281,10 @@ max-width: 100%; /*for img-fluid? */
     font-size: 20px;
   }
 
+  .modal-content {
+    font-size: 14px; 
+}
+
 }
 
 /* Extra Extra Small Devices */
@@ -300,6 +312,10 @@ max-width: 100%; /*for img-fluid? */
   #playAgain {
     font-size: 20px;
   }
+
+  .modal-content {
+    font-size: 12px; 
+}
 
 }
 
