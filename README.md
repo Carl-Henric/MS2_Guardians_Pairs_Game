@@ -1,45 +1,86 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Milestone 2 – Guardians Pairs Game
 
-Welcome upeshp,
+I am designing a website with a javascript pairs game, with a Guardians of the Galaxy theme. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+_Overview_
 
-A blue button should appear to click: *Make Public*,
+The aim of the project is to provide a simple, fun, interactive pairs game, for users of all ages to enjoy. The game will have a ‘Guardians of the Galaxy’ theme, the game will be designed to appeal to fans of the comic or films! 
+The game is designed to be suitable for use on all devices, from desktop to mobile. 
+The game will operate in a similar way to most pairs/memory games, where the user will click on two cards to see the images underneath. If the two images match, the user has successfully matched a pair, and the cards will remain revealed, however if there is no match, the cards will flip back over. The aim of the game is to match all cards, at which point the game is complete.
 
-Another blue button should appear to click: *Open Browser*.
+_User Stories_
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   *	I want the website to be intuitive, so I can get an impression of how the game works from first glance.
+   *	I want the game to be visually appealing and well presented.
+   *	I want the game to provide a challenge to keep my interest.
+   *	I want the game to include fun, interactive features.
+   *	I want some information available on how to play, if I don’t immediately understand what to do.
+   *	I want the game to be customizable, so I can turn sound effects on or off depending on my preferences.
+	
+_5 S's_
 
-A blue button should appear to click: *Make Public*,
+**Strategy** 
 
-Another blue button should appear to click: *Open Browser*.
+The primary goal is to provide a simple, fun, interactive pairs game, for users of all ages to enjoy. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Scope** 
 
-## Updates Since The Instructional Video
+The overall look and feel of the website was influenced by researching other character based online pairs games (credits at end) [https://guardiansofthegalaxy.marvelhq.com/games/guardians-of-the-galaxy-match] [http://www.trollsmovie-ph.com/memory/] :
+-	These are simple in design, the main focus is on the game area, which contains the cards – these are usually styled in a way to make them stand out from the rest of the site.
+-	Character images are used throughout the page to reinforce the theme, for example on the back of the cards, or as a background image.
+-	There are some brief simple instructions for the user to understand how to play the game. 
+-	There is a familiar soundtrack and/or sound effects used in the game, which tie-in to the theme of the game, which can be muted on the click of an icon.
+- 	There is usually an element of challenge, typically the game advances in difficulty by increasing the number of cards to match.
+-	There is a congratulatory popup modal on completion of the game.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+With this in mind, my website will include:
+- 	One simple page which contains the game area (i.e. the cards).
+-	A suitable background image, which draws upon the theme, which will be familiar to fans of Guardians of the Galaxy.
+-	A help button, which will open a popup modal containing some quick instructions on how to play the game. A modal will be used to keep the design clean and simple, and reduce real-estate on the screen.
+-	Sound effects which come in to effect when playing the game.
+-	A mute button for the sound effects.
+-	A points system will be used in this game, with each correct match scoring 4 points, but an incorrect match losing 1 point (This will be used to provide the “challenge” to the user, as the user may try to complete the game earning the most points possible).
+-	A congratulatory popup modal, displayed on completion of the game.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Structure** 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In line with the features identified in the scope section, the website will be structured as follows:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1.	Logo/Title:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+	-	The top of the page will contain a Guardians of the Galaxy logo, to make the theme clear to the user.
+	-	Underneath the logo will be a title “Pairs Game” to make the purpose of the site clear to the user.
+  
+2.	Buttons:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+	-	The page will contain two buttons, the help button, and the mute button, these will be positioned below the title. 
+	-	Icons will be used for these buttons using familiar images, to make these intuitive.
+	-	These are positioned towards the top of the page, as the user may wish to use these before commencing the game.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+3.	Game Area:
+	
+	-	The game area with the cards will displayed below the above items. These will be positioned centrally in the screen, and will take up the most space on the screen, in line with the design principles found from my research on other similar websites.
+	-	These will also be formatted in a way to make the cards stand out from the background, to make it clear to users that these are the cards which need to be “clicked”.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+4. 	Responsiveness:
+	-	The game is designed to be responsive and suitable for play on all devices, so bootstrap and CSS media queries will be used to structure/design the game.
+	-	Essentially the game structure will remain the same on all formats, however the elements will scale down for smaller screens.
 
---------
 
-Happy coding!
+**Skeleton** 
+
+[Wireframes](https://github.com/upeshp/MS2_Guardians_Pairs_Game/tree/master/assets/docs/wireframe)
+
+
+**Surface** 
+
+-	The colour scheme will tie into the theme.
+-	The main colours used will come from the Guardians of The Galaxy logo (i.e. the same logo used at the top of the homepage) – these will be purple, yellow, and grey. These are also suitable for use as they tie into the space or galaxy theme.
+-	The background image will be a simple image, with no overbearing features, so not to distract or overwhelm the user, ideally with grey or dark colours.
+-	The cards will be formatted in a colour to make them stand out from the rest of the site, such as purple or yellow.
+-	I wanted the fonts used to give a comic feel, given the theme of the site, but also be clear to read for all users. After examining various Google fonts, I decided on Marvel, as I thought this gave a compromise between the two.
+-	As mentioned above, all elements on the page will reduce in scale on smaller screens, for presentation and good user experience.
