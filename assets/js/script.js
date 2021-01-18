@@ -26,7 +26,20 @@ var fxCorrect = new Audio("assets/sounds/nothing_goes_new.mp3");
 var fxWrong = new Audio("assets/sounds/one_of_my_issues_new.mp3");
 var fxWon = new Audio("assets/sounds/oh_yeah.mp3");
 
-
+/* http://www.developphp.com/video/JavaScript/Change-CSS-Class-Style-className-Toggle-Tutorial */
+function toggleClass(el){
+	if(el.className == "soundon"){
+        el.className = "soundoff";
+        fxCorrect.muted = true;
+        fxWrong.muted = true;
+        fxWon.muted = true; 
+	} else {
+        el.className = "soundon";
+        fxCorrect.muted = false;
+        fxWrong.muted = false;
+        fxWon.muted = false;
+	}
+}
 
 /* HELP MODAL */
 
