@@ -65,6 +65,31 @@ body {
   background-image: linear-gradient(-225deg, #c7c3b8 0%, #faf9f9 100%);
 }
 
+/* WIN MODAL */
+
+#won {
+  visibility: hidden; /*hidden*/
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #f7dd8b 0%, #f8e9bf 100%);
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#playAgain {
+  border: 2px solid #919189;
+  border-radius: 5px;
+  background: #c4bbc3;
+}
+
+#playAgain:hover {
+  border: 2px solid #645e64;
+  background: linear-gradient(115.87deg, #b47eb2 0%, #aca2b1 100%);
+}
 
 /* RESPONSIVE MEDIA QUERIES */
 
