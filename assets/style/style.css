@@ -166,6 +166,37 @@ max-width: 100%; /*for img-fluid? */
   background: linear-gradient(115.87deg, #b47eb2 0%, #aca2b1 100%);
 }
 
+/* SOUND MUTE BUTTON */
+
+.soundon { 
+    background-image: url("../images/volume_up.png"); /* https://www.flaticon.com/ */  
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-position: 50% 50%; 
+    background-size: 30px; 
+    background-repeat: no-repeat; 
+    background-position: center;  
+    width:100px; 
+    height:100px; 
+    cursor:pointer; 
+}
+
+.soundoff { 
+    background-image: url("../images/no_sound.png"); /* https://www.flaticon.com/ */ 
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-position: 50% 50%; 
+    background-size: 30px; 
+    background-repeat: no-repeat; 
+    background-position: center;  
+    width:100px; 
+    height:100px; 
+    cursor:pointer; 
+}
+
+
 /* RESPONSIVE MEDIA QUERIES */
 
 /* Large Devices */
