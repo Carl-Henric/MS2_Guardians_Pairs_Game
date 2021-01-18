@@ -16,6 +16,17 @@ body {
   background-position: top;   
 }
 
+/* POINTS */
+
+.points-display {
+    color: #ebe6eb;
+    text-align: center;
+    text-transform: uppercase;  
+    font-weight: lighter;
+    letter-spacing: 1px;
+    
+}
+
 /* GAME SECTION */
 
 .memory-game {
