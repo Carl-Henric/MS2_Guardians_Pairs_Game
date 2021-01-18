@@ -16,6 +16,16 @@ body {
   background-position: top;   
 }
 
+/* HEADER */
+
+.header {
+    color: #ebe6eb;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;  
+    letter-spacing: 3px;
+}
+
 /* POINTS */
 
 .points-display {
