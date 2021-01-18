@@ -18,6 +18,16 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+/* SOUND EFFECTS */
+
+/* code for adding sound effects taken from https://www.youtube.com/watch?v=QHBOOouI1tY */
+
+var fxCorrect = new Audio("assets/sounds/nothing_goes_new.mp3");
+var fxWrong = new Audio("assets/sounds/one_of_my_issues_new.mp3");
+var fxWon = new Audio("assets/sounds/oh_yeah.mp3");
+
+
+
 /* HELP MODAL */
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal */
@@ -88,13 +98,13 @@ function cardsMatch() {
 
   if (win != 12) {
     
-       
+    fxCorrect.play();     
         
   }  
 
   if (win === 12) {
     
-     
+    fxWon.play(); 
     won.style.visibility = "visible";
     
   }
@@ -105,7 +115,7 @@ function cardsMatch() {
 }
 
 function cardsDontMatch() {
-   
+  fxWrong.play(); 
   lockBoard = true;
 
   setTimeout(() => {
