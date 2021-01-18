@@ -66,3 +66,81 @@ body {
 }
 
 
+/* RESPONSIVE MEDIA QUERIES */
+
+/* Large Devices */
+@media (min-width: 992px) {
+  
+  .memory-game {
+    width: 640px;
+    height: 530px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 2px; /* was 10px */
+  }
+ 
+}
+
+/* Medium Devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .memory-game {
+    width: 620px;
+    height: 512px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 2px; /*10px */
+  }
+
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  .memory-game {
+    width: 400px; /* was 480px; */
+    height: 398px;
+  }
+  .front-face,
+  .back-face {
+    padding: 2px; /* was 10px */
+  }
+
+}
+
+/* Extra Small Devices */
+@media (min-width: 378px) and (max-width: 575px) {
+  
+  .memory-game {
+    width: 300px; /* was 380px; */
+    height: 315px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 2px; /* was 10px */
+  }
+
+}
+
+/* Extra Extra Small Devices */
+@media (max-width: 377px) {
+  
+
+  .memory-game {
+    width: 250px; /* was 340px; */
+    height: 282px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 2px; /* was 10px */
+  }
+
+}
+
