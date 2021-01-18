@@ -76,6 +76,23 @@ body {
   background-image: linear-gradient(-225deg, #c7c3b8 0%, #faf9f9 100%);
 }
 
+/* HELP MODAL */
+
+#HelpBtn {
+background-image: url("../images/question2.png");     /* https://www.flaticon.com/ */
+cursor:pointer;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+width:100px; 
+height:100px;
+background-size: 30px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+max-width: 100%; /*for img-fluid? */
+}
+
+
 /* WIN MODAL */
 
 #won {
