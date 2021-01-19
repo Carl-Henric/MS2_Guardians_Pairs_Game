@@ -39,13 +39,24 @@ body {
 
 /* GAME SECTION */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .memory-game {
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  perspective: 1000px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
   z-index: -1;
 }
 
@@ -53,36 +64,38 @@ body {
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);
   margin: 5px;
+  position: relative;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
   border-radius: 5px;
+  background-image: -o-linear-gradient(315deg, #6b0579 0%, #dc7ae9 100%);
   background-image: linear-gradient(-225deg, #6b0579 0%, #dc7ae9 100%);
   cursor: pointer;
-  position: relative;
-  -webkit-transform-style: preserve-3d; /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  -o-transform-style: preserve-3d; 
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 0.5s; /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  -o-transition: -o-transform 0.5s;
-  -moz-transition: -moz-transform 0.5s;
-  transition: transform 0.5s;
+  
 }
 
 .memory-card:active {
   -webkit-transform: scale(0.97);
-  -o-transform: scale(0.97);
-  -moz-transform: scale(0.97); /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  transform: scale(0.97);
-  -webkit-transition: -webkit-transform 0.2s; /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  -o-transition: -o-transform 0.2s;
-  -moz-transition: -moz-transform 0.2s;
+      -ms-transform: scale(0.97);
+          transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  -o-transition: transform 0.2s;
   transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .memory-card.flip {
-    -webkit-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg); 
-    -moz-transform: rotateY(180deg); /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .front-face,
@@ -92,21 +105,17 @@ body {
   padding: 2px; /* was 10px */
   position: absolute;
   border-radius: 5px;
-  visibility: visible; /*TEST*/
   -webkit-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .front-face {
-    -webkit-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: -o-linear-gradient(315deg, #c7c3b8 0%, #faf9f9 100%);
   background-image: linear-gradient(-225deg, #c7c3b8 0%, #faf9f9 100%);
+  
 }
-
 
 /* HELP MODAL */
 
