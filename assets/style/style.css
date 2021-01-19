@@ -92,6 +92,7 @@ body {
   padding: 2px; /* was 10px */
   position: absolute;
   border-radius: 5px;
+  visibility: visible; /*TEST*/
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
