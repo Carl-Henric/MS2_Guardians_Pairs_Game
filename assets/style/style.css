@@ -79,9 +79,10 @@ body {
 }
 
 .memory-card.flip {
+  -webkit-transform: rotateY(180deg);  
   transform: rotateY(180deg);
  /* added to retain effect on mobile? https://stackoverflow.com/questions/37158161/card-flip-is-not-working-for-safari */
-  -webkit-transform: rotateY(180deg);
+  
 
 }
 
