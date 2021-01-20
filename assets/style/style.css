@@ -22,7 +22,7 @@ body {
     color: #ebe6eb;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;  
+    font-weight: 900;  
     letter-spacing: 3px;
 }
 
@@ -32,7 +32,7 @@ body {
     color: #ebe6eb;
     text-align: center;
     text-transform: uppercase;  
-    font-weight: lighter;
+    font-weight: 600;
     letter-spacing: 1px;
     
 }
