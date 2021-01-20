@@ -303,7 +303,7 @@ max-width: 100%; /*for img-fluid? */
   }
 
   .modal-content {
-    font-size: 18px; 
+    font-size: 22px; 
   }
 
 }
@@ -335,7 +335,7 @@ max-width: 100%; /*for img-fluid? */
   }
 
   .modal-content {
-    font-size: 16px; 
+    font-size: 20px; 
 }
    #HelpBtn {
       background-size: 20px;
@@ -382,7 +382,7 @@ max-width: 100%; /*for img-fluid? */
   }
 
   .modal-content {
-    font-size: 14px; 
+    font-size: 18px; 
 }
 
     #HelpBtn {
@@ -431,7 +431,7 @@ max-width: 100%; /*for img-fluid? */
   }
 
   .modal-content {
-    font-size: 12px; 
+    font-size: 16px; 
 }
 
 #HelpBtn {
