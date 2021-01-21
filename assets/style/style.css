@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background-image: url("../images/guardians_shadow_mercury.jpg") ; 
+    background-image: url("../images/guardians_shadow_mercury.jpg"); /* ATTRIBUTION: Image from https://voicesfilm.com/guardians-of-the-galaxy-vol-2-sneak-peak/ licensed under CC BY-NC-ND 4.0 https://creativecommons.org/licenses/by-nc-nd/4.0/ (Image cropped/darkened from original) */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
