@@ -84,3 +84,43 @@ In line with the features identified in the scope section, the website will be s
 -	The cards will be formatted in a colour to make them stand out from the rest of the site, such as purple or yellow.
 -	I wanted the fonts used to give a comic feel, given the theme of the site, but also be clear to read for all users. After examining various Google fonts, I decided on Marvel, as I thought this gave a compromise between the two.
 -	As mentioned above, all elements on the page will reduce in scale on smaller screens, for presentation and good user experience.
+
+## Features
+
+_Existing_
+
+- 	Main logo serves as a link to homepage
+- 	Cursor changes to a pointer on items where clicking is required to activate a function
+- 	Modal appears on clicking the question mark icon giving instructions on how to play the game
+-	Clicking the sound icon toggles the sound effects being on or off
+- 	Game section:
+	- 	cards are "shuffled" each time the game is loaded/restarted
+	-	cards appear to "shrink" when clicked giving 3D effect
+	-	cards "flip over" when clicked 
+	-	image "underneath" the card is revealed when clicked
+	- 	cards return to original state if there no matched pair 
+	- 	cards remain revealed if there is a matched pair
+	- 	the points counter increases by 4 for a matched pair
+	- 	the points counter reduces by 1 for an incorrect pair
+	-	different sound effects play on the event of a matched pair/incorrect match/game completion
+	-	a win modal appears on game completion showing the final score
+	-	the win modal has a button to "play again" i.e. restart the game
+
+
+_Left to Implement_
+
+The following features were considered during the build of the site, however due to time constraints, these were not included in this version, but could be added at a later date:
+
+- 	Increasing difficulty levels for the game, giving increasing numbers of cards to match (omitted as diffcult to source enough quality character images to use for an increasing number of cards)
+-	Using Marvel API to include info such as character bio's
+
+## Technologies Used
+
+- 	HTML5
+-	CSS3
+-	Javascript
+-	Bootstrap 4.5.2
+-	Gitpod
+-	Github
+
+## Testing
