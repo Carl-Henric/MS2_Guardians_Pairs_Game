@@ -8,7 +8,7 @@ I am designing a Javascript pairs game with a Guardians of the Galaxy theme.
 
 _Overview_
 
-The aim of the project is to provide a simple, fun, interactive pairs game, for users of all ages to enjoy. The game will have a ‘Guardians of the Galaxy’ theme, the game will be designed to appeal to fans of the comic or films! 
+The aim of the project is to provide a simple, fun, interactive pairs game, for users of all ages to enjoy. The game will have a ‘Guardians of the Galaxy’ theme, and will be designed to appeal to fans of the comic or films! 
 The game is designed to be suitable for use on all devices, from desktop to mobile. 
 The game will operate in a similar way to most pairs/memory games, where the user will click on two cards to see the images underneath. If the two images match, the user has successfully matched a pair, and the cards will remain revealed, however if there is no match, the cards will flip back over. The aim of the game is to match all cards, at which point the game is complete.
 
@@ -29,7 +29,7 @@ The primary goal is to provide a simple, fun, interactive pairs game, for users 
 
 **Scope** 
 
-The overall look and feel of the website was influenced by researching other character based online pairs games (credits at end):
+The overall look and feel of the website was influenced from researching other character based online pairs games (credits at end):
 -	These are simple in design, the main focus is on the game area, which contains the cards – these are usually styled in a way to make them stand out from the rest of the site.
 -	Character images are used throughout the page to reinforce the theme, for example on the back of the cards, or as a background image.
 -	There are some brief simple instructions for the user to understand how to play the game. 
@@ -41,7 +41,7 @@ With this in mind, my website will include:
 - 	One simple page which contains the game area (i.e. the cards).
 -	A suitable background image, which draws upon the theme, which will be familiar to fans of Guardians of the Galaxy.
 -	A help button, which will open a popup modal containing some quick instructions on how to play the game. A modal will be used to keep the design clean and simple, and reduce real-estate on the screen.
--	Sound effects which come in to effect when playing the game.
+-	Sound effects which play on certain events in the game.
 -	A mute button for the sound effects.
 -	A points system will be used in this game, with each correct match scoring 4 points, but an incorrect match losing 1 point (This will be used to provide the “challenge” to the user, as the user may try to complete the game earning the most points possible).
 -	A congratulatory popup modal, displayed on completion of the game.
@@ -111,8 +111,9 @@ _Left to Implement_
 
 The following features were considered during the build of the site, however due to time constraints, these were not included in this version, but could be added at a later date:
 
-- 	Increasing difficulty levels for the game, giving increasing numbers of cards to match (omitted as diffcult to source enough quality character images to use for an increasing number of cards)
--	Using Marvel API to include info such as character bio's
+- 	Increasing difficulty levels for the game, giving increasing numbers of cards to match. (Omitted as difficult to source enough quality character images to use for an increasing number of cards)
+-	Using Marvel API to include info such as character bio's.
+-	Further increasing the responsiveness of the images, so the website looks good on smaller devices.
 
 ## Technologies Used
 
@@ -139,7 +140,7 @@ You can run the code locally by clicking on the ‘code’ button on my reposito
 
 _Tutorials_
 
-I went through the following online tutorials on making a javascript pairs game, working through these tutorials help me better understand the javascript code logic:
+I went through the following online tutorials on making a Javascript pairs game, working through these tutorials help me better understand the Javascript code logic:
  - [scotch.io - Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
  - [Code with Ania Kubów](https://www.youtube.com/watch?v=tjyDOHzKN0w)
  - [Memory Game in Vanilla JavaScript - Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/)
@@ -172,7 +173,7 @@ The question mark icon for the help button was from Flaticon. Appropriate credit
  - Question mark: Icon made by Roundicons on [flaticon](https://www.flaticon.com/authors/roundicons)
 
 The sound on/off icons for the mute button was from Flaticon. Appropriate credits have been included both in the code, and below:
- - Sound on/off: Icon made by bqlqn on [flaticon](https://www.flaticon.com/authors/bqlqn)
+ - Sound on/off: Icons made by bqlqn on [flaticon](https://www.flaticon.com/authors/bqlqn)
 
 _Sounds_
 
@@ -181,7 +182,7 @@ Sound effects were used from:
 
 The following websites/resources were used to add features or resolve issues:
  - Inputting sound effects into website: [Mt. Ford Studios](https://www.youtube.com/watch?v=QHBOOouI1tY)
- - Muting sound using javascript: [W3 Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted)
+ - Muting sound using Javascript: [W3 Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted)
  - Toggling image on the mute button: [DevelopPHP](http://www.developphp.com/video/JavaScript/Change-CSS-Class-Style-className-Toggle-Tutorial)
  - Inputting a modal to display on click of button: [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) 
  - Using the autoprefixer to add CSS code to make websites function on different browsers, found out about this from searching on Slack: [Autoprefixer](https://autoprefixer.github.io/) 
@@ -191,8 +192,6 @@ _Research_
 I researched other online character based pairs games, the following in particular helped influence how I wanted to game to look, and the features I wanted to include:
  - [Official Marvel Guardians Pairs Game](https://guardiansofthegalaxy.marvelhq.com/games/guardians-of-the-galaxy-match)
  - [Trolls Pairs Game](http://www.trollsmovie-ph.com/memory/)
-
-
 
 --------
 
