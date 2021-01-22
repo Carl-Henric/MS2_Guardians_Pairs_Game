@@ -8,7 +8,11 @@ All code passed validation tests from the [HTML](https://validator.w3.org/) and 
 
 All necessary corrections were made to the code following this test, however 1 warning remains:
  - The warning message is as follows: "Expected an assignment or function call and instead saw an expression"
- - This relates to the ternary operator used in my JS code on line 93
+ - This relates to the ternary operator used in my JS code on line 93:
+   function checkCards() { 
+        let isMatch = firstCard.dataset.cards === secondCard.dataset.cards;
+        isMatch ? cardsMatch() : cardsDontMatch();
+    } 
  - From searching on google, I found other people have encountered this message from using ternary operators
  - I decided to leave this as is, as the code is functioning as I expect it to, without any problems to the functionality of the website
 
@@ -20,27 +24,27 @@ _User Stories_
 
 Below shows how the user stories have been addressed:
 
-   *	Story: I want the website to be intuitive, so I can get an impression of how the game works from first glance.
-	*	The website design has been kept simple for this reason, to not overwehelm the user.
-	*	The cards are placed centrally on the screen, and are coloured to stand out from the rest of the screen, so you get the impression this is the main area.
-	*	There is a title underneath the heading logo describing the game, which helps the user establish the purpose of the site.
-	*	Any areas which are "clickable" have been styled with a pointer cursor, to visually show the user which areas require user input/action.
-	*	Familiar icons have been used for the help and mute buttons, so the user should recognise what these buttons do just by looking at them	.
-	* 	The theme is visually apparent from looking at the logo in the header, and the background image.
-   *	Story: I want the game to be visually appealing and well presented.
-	*	Care has been taken to source quality images for the background image, and the character images on the cards.
-	*	Colours used have been picked so they complement each other, there are not any harsh contrasting colours.
-	*	Bootstrap and media queries have been used to place items centrally on the screen.
-   *	I want the game to provide a challenge to keep my interest.
-	*	The points system has been included to provide the challenge element, as users will want to see if they can complete the game with a high score.
-	*	A further feature for development in the future would be different difficulty levels. (See 'Features - Left to Implement' for more details)
-   *	I want the game to include fun, interactive features.
-	*	Different quotes from the Guardians of the Galaxy movie play upon different actions in the game.
-	*	A further feature for development in the future would be using the Marvel API to provide facts on the characters. (See 'Features - Left to Implement' for more details)
-   *	I want some information available on how to play, if I don’t immediately understand what to do.
-	*	There is a help modal giving simple instructions on how to play, should this be needed.
-   *	I want the game to be customizable, so I can turn sound effects on or off depending on my preferences.
-	*	There is a mute button, which turns off sound effects.
+    *	Story: I want the website to be intuitive, so I can get an impression of how the game works from first glance.
+	    *	The website design has been kept simple for this reason, to not overwehelm the user.
+	    *	The cards are placed centrally on the screen, and are coloured to stand out from the rest of the screen, so you get the impression this is the main area.
+	    *	There is a title underneath the heading logo describing the game, which helps the user establish the purpose of the site.
+	    *	Any areas which are "clickable" have been styled with a pointer cursor, to visually show the user which areas require user input/action.
+	    *	Familiar icons have been used for the help and mute buttons, so the user should recognise what these buttons do just by looking at them	.
+	    * 	The theme is visually apparent from looking at the logo in the header, and the background image.
+    *	Story: I want the game to be visually appealing and well presented.
+	    *	Care has been taken to source quality images for the background image, and the character images on the cards.
+	    *	Colours used have been picked so they complement each other, there are not any harsh contrasting colours.
+	    *	Bootstrap and media queries have been used to place items centrally on the screen.
+    *	Story: I want the game to provide a challenge to keep my interest.
+	    *	The points system has been included to provide the challenge element, as users will want to see if they can complete the game with a high score.
+	    *	A further feature for development in the future would be different difficulty levels. (See 'Features - Left to Implement' for more details)
+    *	Story: I want the game to include fun, interactive features.
+	    *	Different quotes from the Guardians of the Galaxy movie play upon different actions in the game.
+	    *	A further feature for development in the future would be using the Marvel API to provide facts on the characters. (See 'Features - Left to Implement' for more details)
+    *	Story: I want some information available on how to play, if I don’t immediately understand what to do.
+	    *	There is a help modal giving simple instructions on how to play, should this be needed.
+    *	Story: I want the game to be customizable, so I can turn sound effects on or off depending on my preferences.
+	    *	There is a mute button, which turns off sound effects.
 
 _Features_
 
