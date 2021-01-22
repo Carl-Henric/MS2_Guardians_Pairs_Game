@@ -29,7 +29,7 @@ The primary goal is to provide a simple, fun, interactive pairs game, for users 
 
 **Scope** 
 
-The overall look and feel of the website was influenced by researching other character based online pairs games (credits at end) [https://guardiansofthegalaxy.marvelhq.com/games/guardians-of-the-galaxy-match] [http://www.trollsmovie-ph.com/memory/] :
+The overall look and feel of the website was influenced by researching other character based online pairs games (credits at end):
 -	These are simple in design, the main focus is on the game area, which contains the cards – these are usually styled in a way to make them stand out from the rest of the site.
 -	Character images are used throughout the page to reinforce the theme, for example on the back of the cards, or as a background image.
 -	There are some brief simple instructions for the user to understand how to play the game. 
