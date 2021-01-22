@@ -130,7 +130,7 @@ body {
 
 /* help button icon */
 #HelpBtn {
-    background-image: url("../images/question2.png");     /* IMAGE SOURCE: https://www.flaticon.com/ */ 
+    background-image: url("../images/question2.png");     /* ATTRIBUTION: Icon made by Roundicons https://www.flaticon.com/authors/roundicons from https://www.flaticon.com/ */ 
     cursor:pointer;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -217,7 +217,7 @@ body {
 /* --- SOUND MUTE BUTTON --- */
 
 .soundon { 
-    background-image: url("../images/volume_up.png"); /* IMAGE SOURCE: https://www.flaticon.com/ */  
+    background-image: url("../images/volume_up.png"); /* ATTRIBUTION: Icons made by bqlqn https://www.flaticon.com/authors/bqlqn from https://www.flaticon.com/ */  
     max-width: 100%; 
     margin-left: auto; 
     margin-right: auto; 
@@ -231,7 +231,7 @@ body {
 }
 
 .soundoff { 
-    background-image: url("../images/no_sound.png"); /* https://www.flaticon.com/ */ 
+    background-image: url("../images/no_sound.png"); /* ATTRIBUTION: Icons made by bqlqn https://www.flaticon.com/authors/bqlqn from https://www.flaticon.com/ */ 
     max-width: 100%; 
     margin-left: auto; 
     margin-right: auto; 
