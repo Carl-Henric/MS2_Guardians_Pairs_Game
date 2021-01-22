@@ -125,7 +125,7 @@ The following features were considered during the build of the site, however due
 
 ## Testing
 
-
+Testing documentation can be found [here](https://github.com/upeshp/MS2_Guardians_Pairs_Game/blob/master/TESTING.md)
 
 ## Deployment
 
