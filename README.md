@@ -124,3 +124,75 @@ The following features were considered during the build of the site, however due
 -	Github
 
 ## Testing
+
+
+
+## Deployment
+
+The website code was written in Gitpod (IDE). The code was stored in Github (repository).
+
+To deploy the website, under the Github repository, I went to Settings > Github Pages > Chose ‘master’ branch, after which the website was deployed.
+
+You can run the code locally by clicking on the ‘code’ button on my repository, here is the link: [MS2_Guardians_Pairs_Game](https://github.com/upeshp/MS2_Guardians_Pairs_Game)
+
+## Credits
+
+_Tutorials_
+
+I went through the following online tutorials on making a javascript pairs game, working through these tutorials help me better understand the javascript code logic:
+ - [scotch.io - Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+ - [Code with Ania Kubów](https://www.youtube.com/watch?v=tjyDOHzKN0w)
+ - [Memory Game in Vanilla JavaScript - Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/)
+
+_Code_
+
+My game is heavily based on the Marina Ferreira tutorial, as I found the presentation of this game appealing, and thought this style would best fit my particular theme:
+ - [Memory Game in Vanilla JavaScript - Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/)
+
+For the additional features, such as the points system, and the win modal, I found another tutorial, which builds on the above, and adds in these additional features:
+ - [Techno Geek](https://www.youtube.com/watch?v=WXv51-Lk438) 
+
+The code in my project has been based on the above two tutorials, and edited for my purposes. 
+
+_Images_
+
+The Guardians logo in the header was from:
+ - [Free PNG](https://freepngimg.com)
+
+The background image, and the character images used for the cards, were found from a google image search with creative commons licences. Appropriate credits have been included in the code, and below:
+ - [Background image](https://i1.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1536-x-2048-700kb.jpg): Image cropped/darkened from original
+ - [Gamora](https://i2.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb-2.jpg): Image cropped from original
+ - [Rocket](https://i2.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb-3.jpg): Image cropped from original
+ - [Groot](https://i1.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb-4.jpg): Image cropped from original
+ - [Drax](https://i1.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb-5.jpg): Image cropped from original
+ - [Nebula](https://i1.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb-10.jpg): Image cropped from original
+ - [Starlord](https://i2.wp.com/voicesfilm.com/wp-content/uploads/2016/10/Guardians-Of-The-Galaxy-Vol.-2-1066-x-1500-700kb.jpg): Image cropped from original
+
+The question mark icon for the help button was from Flaticon. Appropriate credits have been included both in the code, and below:
+ - Question mark: Icon made by Roundicons on [flaticon](https://www.flaticon.com/authors/roundicons)
+
+The sound on/off icons for the mute button was from Flaticon. Appropriate credits have been included both in the code, and below:
+ - Sound on/off: Icon made by bqlqn on [flaticon](https://www.flaticon.com/authors/bqlqn)
+
+_Sounds_
+
+Sound effects were used from:
+ - [movie-sounds.org](https://movie-sounds.org/superhero-movie-sound-clips/quotes-with-sound-clips-from-guardians-of-the-galaxy-2014/)
+
+The following websites/resources were used to add features or resolve issues:
+ - Inputting sound effects into website: [Mt. Ford Studios](https://www.youtube.com/watch?v=QHBOOouI1tY)
+ - Muting sound using javascript: [W3 Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted)
+ - Toggling image on the mute button: [DevelopPHP](http://www.developphp.com/video/JavaScript/Change-CSS-Class-Style-className-Toggle-Tutorial)
+ - Inputting a modal to display on click of button: [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) 
+ - Using the autoprefixer to add CSS code to make websites function on different browsers, found out about this from searching on Slack: [Autoprefixer](https://autoprefixer.github.io/) 
+
+_Research_
+
+I researched other online character based pairs games, the following in particular helped influence how I wanted to game to look, and the features I wanted to include:
+ - [Official Marvel Guardians Pairs Game](https://guardiansofthegalaxy.marvelhq.com/games/guardians-of-the-galaxy-match)
+ - [Trolls Pairs Game](http://www.trollsmovie-ph.com/memory/)
+
+
+
+--------
+
