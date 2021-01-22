@@ -2,7 +2,7 @@
 
 I am designing a website with a javascript pairs game, with a Guardians of the Galaxy theme. 
 
-
+![picture](assets/images/AmIResponsive_MS2.PNG)
 
 ## UX
 
