@@ -1,6 +1,6 @@
 ## Milestone 2 – Guardians Pairs Game
 
-I am designing a website with a javascript pairs game, with a Guardians of the Galaxy theme. 
+I am designing a Javascript pairs game with a Guardians of the Galaxy theme. 
 
 ![picture](assets/images/AmIResponsive_MS2.PNG)
 
@@ -94,17 +94,17 @@ _Existing_
 - 	Modal appears on clicking the question mark icon giving instructions on how to play the game
 -	Clicking the sound icon toggles the sound effects being on or off
 - 	Game section:
-	- 	cards are "shuffled" each time the game is loaded/restarted
-	-	cards appear to "shrink" when clicked giving 3D effect
-	-	cards "flip over" when clicked 
-	-	image "underneath" the card is revealed when clicked
-	- 	cards return to original state if there no matched pair 
-	- 	cards remain revealed if there is a matched pair
-	- 	the points counter increases by 4 for a matched pair
-	- 	the points counter reduces by 1 for an incorrect pair
-	-	different sound effects play on the event of a matched pair/incorrect match/game completion
-	-	a win modal appears on game completion showing the final score
-	-	the win modal has a button to "play again" i.e. restart the game
+	- 	Cards are "shuffled" each time the game is loaded/restarted
+	-	Cards appear to "shrink" when clicked giving 3D effect
+	-	Cards "flip over" when clicked 
+	-	Image "underneath" the card is revealed when clicked
+	- 	Cards return to original state if there no matched pair 
+	- 	Cards remain revealed if there is a matched pair
+	- 	The points counter increases by 4 for a matched pair
+	- 	The points counter reduces by 1 for an incorrect pair
+	-	Different sound effects play on the event of a matched pair/incorrect match/game completion
+	-	A win modal appears on game completion showing the final score
+	-	The win modal has a button to "play again" i.e. restart the game
 
 
 _Left to Implement_
@@ -129,7 +129,7 @@ Testing documentation can be found [here](https://github.com/upeshp/MS2_Guardian
 
 ## Deployment
 
-The website code was written in Gitpod (IDE). The code was stored in Github (repository).
+The website code was written in Gitpod (IDE). The code was stored in Github (Repository).
 
 To deploy the website, under the Github repository, I went to Settings > Github Pages > Chose ‘master’ branch, after which the website was deployed.
 

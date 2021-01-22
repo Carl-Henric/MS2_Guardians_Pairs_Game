@@ -59,19 +59,19 @@ The following details how the various features of the site have been tested for 
 
 Feature | Expected | Testing | Result 
 ------- | -------- | ------- | ------
-POINTER CURSOR | pointer cursor is shown when hovering over clickable elements | tested by hovering mouse over all relevant elements | works as expected
-LOGO | expected to be an active link to homepage on clicking | tested by clicking the logo and seeing if page refreshes | works as expected
-HELP BUTTON | expected to display help modal on clicking | tested by clicking help button | works as expected
-SOUND ON/OFF BUTTON | expected to turn sound effects on/off on clicking | tested by clicking whilst game in play, upon a correct/incorrect match, and game completion | works as expected
-CARD FLIPS ON CLICK | card should give impression of flipping over to reveal the front-face image of the card | tested by clicking on all cards, refreshing the page several times | works as expected
-GAME LOCKS ON INCORRECT PAIR | if incorrect pair revealed there should be a short time delay before I can click any more cards | tested by attempting to click all unrevealed cards after an incorrect pair revealed | works as expected
-CORRECT PAIR OF CARDS STAYS REVEALED | if correct pair revealed these stay revealed i.e. the front-face stays up | tested by attempting to click correct pair of cards after revelaed to see if they flip back over again | works as expected
-POINTS ADDED CORRECTLY | the user gets 4 points for a correct pair match and loses 1 point for a mismatch | played game and monitored the points accumulation | works as expected
-WIN MODAL APPEARS ON GAME COMPLETION | win modal appears after all pairs correctly matched | tested by completing game several times | works as expected
-TOTAL POINTS DISPLAYED ON WIN MODAL TEXT | the number of points won should be part of the win modal text | monitored the text on the win modal to see if points shown are correct | works as expected
-PLAY AGAIN BUTTON ON WIN MODAL RESTARTS GAME | clicking the play again button restarts the game | clicked the button to see if game reloads | works as expected
-CARDS SHUFFLED ON RESTART | the cards are shuffled each time a new game starts | tested by restarting several times | works as expected
-CORRECT SOUND EFFECT PLAYS ON EVENT | the releveant sound effect plays on revealing a correct/incorrect pair or completing the game | tested by listening for correct sound effect playing on all these 3 events | works as expected
+Poiner Cursor | Pointer cursor is shown when hovering over clickable elements | Tested by hovering mouse over all relevant elements | Works as expected
+Logo Link | Active link to homepage on clicking | Tested by clicking the logo and seeing if page refreshes | Works as expected
+Help Button| Display help modal on clicking | Tested by clicking help button | Works as expected
+Sound Button | Turn sound effects on/off on clicking | Tested by clicking whilst game in play, upon a correct/incorrect match, and game completion | Works as expected
+Card Flips | Give impression of flipping over on click to reveal the front-face image of the card | Tested by clicking on all cards, refreshing the page several times | Works as expected
+Game Locks - Incorrect Pair | If incorrect pair revealed there should be a short time delay before I can click any more cards | Tested by attempting to click all unrevealed cards after an incorrect pair revealed | Works as expected
+Cards Stay Revealed - Correct Pair | If correct pair revealed these stay revealed i.e. the front-face stays up | Tested by attempting to click correct pair of cards after revelaed to see if they flip back over again | Works as expected
+Points Added | User gets 4 points for a correct pair match and loses 1 point for a mismatch | Played game and monitored the points accumulation | Works as expected
+Win Modal Appears - Game Completion | Win modal appears after all pairs correctly matched | Tested by completing game several times | Works as expected
+Total Points Displayed - Win Modal | Number of points won should be part of the win modal text | Monitored the text on the win modal to see if points shown are correct | Works as expected
+Play Again Button - Restarts Game | Clicking the play again button restarts the game | Clicked the button to see if game reloads | Works as expected
+Cards Shuffled on Restart | Cards are shuffled each time a new game starts | Tested by restarting several times | Works as expected
+Correct Sound Effect Plays | Releveant sound effect plays on revealing a correct/incorrect pair or completing the game | Tested by listening for correct sound effect playing on all these 3 events | Works as expected
 
 _Responsiveness_
 
@@ -80,7 +80,7 @@ I tested the website by changing the screen size on my display, and using the in
 I tested the website on various browsers/devices which were availible to me.
 
 When testing on iPhones, I encountered an issue where the cards were not "flipping" as intended on Safari. I resolved this problem through a combination of:
-- Searching on Slack (see credits below): I found out about using [Autoprefixer](https://autoprefixer.github.io/) to check/add necessary code (i.e. webkit) so websites disaply on different browsers.
+- Searching on Slack (see credits for more details): I found out about using [Autoprefixer](https://autoprefixer.github.io/) to check/add necessary code (i.e. webkit) so websites disaply on different browsers.
 - Experimenting with changing different CSS stylings on my memory card: I found I had a style applied to the memory card "container" which was overriding the display of the front-face of the card, so I rearranged my code accordingly.
 
 Although the site is intended to be used on all devices, it is recognised that the presentation of the site is better on larger devices. This is noted as a further area for development in the Features section.
@@ -88,7 +88,7 @@ Although the site is intended to be used on all devices, it is recognised that t
 _Bugs_
 
 There are some minor issues encountered with the current version of the site:
- - on clicking the mute button for the first time afer loading the website, the image appears to flicker.
- - on changing to a landscape display on iPhones, the memory game section appears to be "pushed" towards the bottom of the screen instead of being centered vertically.
+ - On clicking the mute button for the first time afer loading the website, the image appears to flicker.
+ - On changing to a landscape display on iPhones, the memory game section appears to be "pushed" towards the bottom of the screen instead of being centered vertically.
 
 These were not deemed major issues in terms of the functionality of the website, and due to time constraints, were left to be resolved at a later date.
