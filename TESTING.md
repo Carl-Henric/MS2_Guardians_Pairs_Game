@@ -7,7 +7,7 @@ All code passed validation tests from the [HTML](https://validator.w3.org/) and 
 [JSHint](https://jshint.com/) was used to validate the JS code. 
 
 All necessary corrections were made to the code following this test, however 1 warning remains:
- - The warning message is as follows: "Expected an assignment or function call and instead saw an expression"
+ - The warning message is as follows: "Expected an assignment or function call and instead saw an expression".
  - This relates to the ternary operator used in my JS code on line 93:
         ```
         function checkCards() { 
@@ -15,8 +15,8 @@ All necessary corrections were made to the code following this test, however 1 w
         isMatch ? cardsMatch() : cardsDontMatch();
         }
         ``` 
- - From searching on google, I found other people have encountered this message from using ternary operators
- - I decided to leave this as is, as the code is functioning as I expect it to, without any problems to the functionality of the website
+ - From searching on google, I found other people have encountered this message from using ternary operators.
+ - I decided to leave this as is, as the code is functioning as I expect it to, without any problems to the functionality of the website.
 
 _Speed_
 

@@ -120,7 +120,7 @@ The following features were considered during the build of the site, however due
 - 	HTML5
 -	CSS3
 -	Javascript
--	Bootstrap 4.5.2
+-	Bootstrap 4.2.1
 -	Gitpod
 -	Github
 
@@ -192,6 +192,10 @@ _Research_
 I researched other online character based pairs games, the following in particular helped influence how I wanted to game to look, and the features I wanted to include:
  - [Official Marvel Guardians Pairs Game](https://guardiansofthegalaxy.marvelhq.com/games/guardians-of-the-galaxy-match)
  - [Trolls Pairs Game](http://www.trollsmovie-ph.com/memory/)
+
+ _Slack Peer-Code-Review_
+
+ For reviewing/testing my website.
 
 --------
 
